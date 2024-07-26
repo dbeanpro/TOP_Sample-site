@@ -27,3 +27,22 @@ p, h1, h2, h3, h4, h5, h6 {
     @ https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
+nav * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.noStyle {
+    list-style: none;
+}
+
+.lefty {
+    justify-content: left;
+    padding-left: 1rem;
+}
+
+.inline {
+    display: inline !important;
+}
