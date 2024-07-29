@@ -34,17 +34,24 @@ nav * {
 
 }
 
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
 .noStyle {
     list-style: none;
 }
 
 nav ul {
-    margin-left: 50%;
-    margin-top: 2%;
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
 }
 
 #headerLogo {
     position: absolute;
-    left: 1%;
+    left: 10%;
     top: 1%;
 }
