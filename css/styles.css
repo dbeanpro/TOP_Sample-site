@@ -38,11 +38,13 @@ nav * {
     list-style: none;
 }
 
-.lefty {
-    justify-content: left;
-    padding-left: 1rem;
+nav ul {
+    margin-left: 50%;
+    margin-top: 2%;
 }
 
-.inline {
-    display: inline !important;
+#headerLogo {
+    position: absolute;
+    left: 1%;
+    top: 1%;
 }
