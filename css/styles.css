@@ -70,10 +70,11 @@ nav ul {
 #hero1 p {
     font-size: 18px;
     color: #e5e8eb;
+    padding-bottom: 1vh;
 }
 
 #imgBox {
-    background-color: #6d7571;
+    background-color: #6d747d;
     color: #e5e8eb;
 }
 
