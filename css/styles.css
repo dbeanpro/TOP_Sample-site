@@ -78,7 +78,7 @@ nav ul {
 }
 
 #cont1 {
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2vw;
