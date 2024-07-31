@@ -57,23 +57,17 @@ nav ul {
     top: 1%;
 }
 
-.inline {
-    display: inline-block;
-    margin: 0 2vw;
+#hero1 {
+    text-align: left;
 }
 
-.hero {
-    height: 15vh;
-    width: 25vw;
-}
-
-.hero h1 {
+#hero1 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.hero p {
+#hero1 p {
     font-size: 18px;
     color: #e5e8eb;
 }
@@ -84,12 +78,13 @@ nav ul {
 }
 
 #cont1 {
-    text-align: center;
     padding-bottom: 5vh;
-}
-
-.tLeft {
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    text-align: center;
 }
 
 #cont1 button {
