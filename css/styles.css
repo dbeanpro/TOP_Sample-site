@@ -100,3 +100,19 @@ nav ul li:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+#section1 {
+    text-align: center;
+}
+
+#cont2 {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+}
+
+.gridBox {
+    border: #3882f6;
+    border-width: 15px;
+    border-radius: 20px;
+}
