@@ -115,8 +115,8 @@ nav ul li:hover {
 #cont2 {
     display: inline-grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1;
-    gap: 50px;
+    grid-template-rows: 2;
+    gap: 8px 50px;
 }
 
 .gridBox {
@@ -124,4 +124,9 @@ nav ul li:hover {
     border-radius: 20px;
     width: 160px;
     height: 160px;
+}
+
+.cap {
+    text-wrap: wrap;
+    max-width: 160px;
 }
