@@ -101,7 +101,8 @@ nav ul li:hover {
     cursor: pointer;
 }
 
-#section1 {
+#section1,
+#section2 {
     text-align: center;
 }
 
@@ -129,4 +130,22 @@ nav ul li:hover {
 .cap {
     text-wrap: wrap;
     max-width: 160px;
+}
+
+#pageWrap {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat (3, 1fr);
+    gap: 100px;
+}
+
+#section2 {
+    background-color: #e5e7eb;
+}
+
+#section2 p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
 }
