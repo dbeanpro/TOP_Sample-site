@@ -156,10 +156,15 @@ nav ul li:hover {
     justify-content: center;
 }
 
+#hero2 {
+    font-size: 18px;
+}
+
 #subWrap {
     display: grid;
     grid-template-columns: 85% 15%;
     grid-template-rows: 1;
+    gap: 5vw;
     background-color: #3b82f6;
     color: white;
     padding: 3% 15%;
@@ -170,7 +175,7 @@ nav ul li:hover {
 #subWrap > div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
 }
 
