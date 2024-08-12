@@ -200,3 +200,15 @@ footer {
     font-size: 18px;
     padding: 50px 0px;
 }
+
+#SUButton {
+    padding: 0px 15px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 15px;
+}
+
+#SUButton:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
