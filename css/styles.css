@@ -149,6 +149,31 @@ nav ul li:hover {
     align-items: center;
 }
 
+#section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#subWrap {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 1;
+    background-color: #3b82f6;
+    color: white;
+    padding: 3% 15%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#subWrap > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #subsec1 {
     width: 50%;
     text-align: left;
